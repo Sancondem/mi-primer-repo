@@ -18,7 +18,7 @@ export const FirstPage = () => {
     return (
 
         <>
-            <h1>Contador</h1>
+            <h1>Contador Melosky</h1>
             <h1>{valor}</h1>
             <button onClick={() => modificarEstado(+1)}>+1</button>
             <button onClick={() => modificarEstado(-1)}>-1</button>
